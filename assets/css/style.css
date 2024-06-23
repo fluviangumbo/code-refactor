@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+/* better way to do these 5 header stylings - also seo class is here */
+header { /* chaned to element and not a class */
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+h1 { /* element, not a class */
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* removed seo class */
+
+nav { /* element not class */
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+ul { /* element not class */
+    list-style-type: none;
+}
+
+li { /* element not class */
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* way to alter */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* smarter way for these 2 floats? */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    /* adding the 3 sub benefits fields to here since they are all the same */
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* consolidated to just h3 from a benefits specific tab */
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* next 3 consolidated and changed to just be imgs under the benefits class */
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+    height: 150px;
+}
+
+/* next 3 consolidated to one class */
+.subcontent {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* next 3 consolidated for one class */
+.subcontent img {
+    height: 200px;
+}
+
+/* next 3 consolidated */
+.subcontent h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+footer { /* element not class */
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+#footnote { /* gave unique ID */
+    font-size: 20px;
+}
